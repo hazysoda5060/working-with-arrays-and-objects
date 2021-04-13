@@ -202,5 +202,3 @@ function looper(){
   }
   return numsArr
 }
-
-looper()
