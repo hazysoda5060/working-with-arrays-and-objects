@@ -118,10 +118,7 @@ const orders = [{"price":15,"tax":0.09},{"price":42,"tax":0.07},{"price":56,"tax
   Use a higher order method to get all the order totals after adding in the sales tax (given to you as a tax rate, hint: you'll need to do some multiplication). Your answer should be an array of numbers, one total for each order.
 */
 
-let orderTotals = orders.map( mult => {
-  return mult.price * ( mult.tax + 1 )
-})
-
+let orderTotals = orders.map( i => i.price * ( i.tax + 1 ))
 
 
 ////////// PROBLEM 6 //////////
